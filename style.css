@@ -1,0 +1,60 @@
+.box{
+width: 200px;
+height: 200px;
+animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+
+}
+.body3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 241, 22);    
+    left: 140px;
+    top: 18px;
+    border-radius: 100%;
+}
+.glaas3{
+    width: 23px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);    
+    left: 120px;
+    top: -135px;
+    border-radius: 100%;
+    position: relative;
+}
+.glaas4{
+    width: 23px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);    
+    left: 60px;
+    top: -155px;
+    border-radius: 100%;
+    position: relative;
+}
+.glaas5{
+    width: 45px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);    
+    left: 80px;
+    top: -110px;
+    border-radius: 100%;
+    position: relative;
+}
+.palka4{
+    width: 20px;
+    height: 5px;
+    background-color: rgb(196, 19, 42);
+    left: 95px;
+    top: -120px;
+    position: relative;
+}
